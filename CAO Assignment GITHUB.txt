@@ -1,0 +1,18 @@
+
+.data
+.align 2
+A: .asciiz "A\n"
+.align 2
+B: .asciiz "B\n"
+.align 2
+C: .asciiz "C\n"
+prompt: .asciiz "How many disks?"
+.align 2
+newline: .asciiz "\n"
+.align 2
+print:  .asciiz "Move from \n"
+.align 2
+to: .asciiz " to \n"
+.align 2
+movet: .asciiz "The total number of moves is: \n"
+
